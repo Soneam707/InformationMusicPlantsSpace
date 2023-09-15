@@ -1,0 +1,1760 @@
+/* Обнуление --------------------------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Общее ---------------------------------------------------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&display=swap");
+
+.logotip {
+  font-family: "Comforter", cursive;
+  font-family: "Marck Script", cursive;
+}
+
+body {
+  color: #3e43b6;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  background-image: url(img/проект.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  height: 100%;
+}
+
+header img {
+  width: 17vw;
+  height: 60%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  margin-left: 0.5%;
+}
+
+header > div {
+  display: flex;
+  align-items: center;
+  background-color: #e4a9f1;
+  box-shadow: inset 0px 0px 10px 0px #7f5589;
+  width: 30%;
+  height: 40%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 0.5%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f1cff9;
+  width: 100%;
+  height: 20%;
+}
+
+header > * {
+  margin: 0;
+}
+
+.logotip {
+  height: 30%;
+  width: 30%;
+}
+
+header img {
+  object-fit: cover;
+  transition: transform 1s;
+  animation: wobble 2s 1;
+}
+
+/*---header {
+  position: absolute;
+}---*/
+
+.logotip {
+  object-fit: contain;
+  transition: transform 1s;
+  animation: wobble 2s 1;
+}
+
+/*------кнопки-------*/
+
+/*--.muzika {
+  border: none;
+  outline: none;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 10%;
+}--*/
+
+/*-------
+.muzika {
+  background: #e4a9f1;
+  background-size: cover;
+  border-color: #ea8dff;
+  border-radius: 10px;
+  border: solid;
+  width: 20%;
+  height: 10%;
+}-------*/
+
+.domik {
+  background-color: #e4a9f1;
+  box-shadow: inset 0px 0px 10px 0px #7f5589;
+  height: 18.7vh;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.domik > img {
+  height: 87px;
+  width: 80px;
+}
+
+.fff,
+.fff2 {
+  background-image: url(img/фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 81.3vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff > h1,
+.fff > p {
+  margin-top: 4%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.fff > p {
+  font-size: 24px;
+}
+
+.fff2 li {
+  display: inline;
+}
+
+.fff2 ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10%;
+}
+
+/*------музыка класическая-----*/
+.fff21 {
+  background-image: url(img/прод.фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 97.5vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff2111 {
+  background-image: url(img/прод.фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 97.5vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff21111 {
+  background-image: url(img/прод.фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 96.5vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff21 > h1,
+.fff21 > p {
+  margin-top: 4%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.fff211 {
+  background-image: url(img/фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 96.5vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff211 > h1,
+.fff211 > p {
+  margin-top: 4%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.knopak1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 5%;
+  margin-top: 8%;
+}
+
+.knopak {
+  display: inline;
+}
+
+.fff21 ul {
+  list-style: none;
+}
+
+.fff21 h2 {
+  margin-right: 1%;
+  margin-top: 3%;
+}
+
+.fff21 ul {
+  margin-right: 5%;
+}
+
+/*-----музыка класическая---*/
+
+/*-----народная музыка---*/
+.fff61 {
+  background-image: url(img/прод.фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 97.5vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff6111 {
+  background-image: url(img/прод.фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 97.5vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff61111 {
+  background-image: url(img/прод.фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 96.5vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff611111 {
+  background-image: url(img/прод.фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 96.5vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff6111111 {
+  background-image: url(img/прод.фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 96.5vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff61 > h1,
+.fff61 > p {
+  margin-top: 4%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.fff611 {
+  background-image: url(img/фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 96.5vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff611 > h1,
+.fff611 > p {
+  margin-top: 4%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.knopnar1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 5%;
+  margin-top: 8%;
+}
+
+.knopnar {
+  display: inline;
+}
+
+.fff61 ul {
+  list-style: none;
+}
+
+.fff61 h3 {
+  margin-right: 1%;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
+.fff61 h2 {
+  margin-right: 1%;
+  margin-top: 3%;
+}
+
+.fff61 ul {
+  margin-right: 5%;
+}
+/*-----народная музыка---*/
+
+/*-----духовная музыка---*/
+
+.fff71 {
+  background-image: url(img/прод.фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 95vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff71 > h1,
+.fff71 > p {
+  margin-top: 4%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.fff711 {
+  background-image: url(img/фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 95vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff711 > h1,
+.fff711 > p {
+  margin-top: 4%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.knopdux1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 5%;
+  margin-top: 8%;
+}
+
+.knopdux {
+  display: inline;
+}
+
+.fff71 ul {
+  list-style: none;
+}
+
+.fff71 h2 {
+  margin-right: 1%;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
+.fff71 ul {
+  margin-right: 5%;
+}
+/*-----духовная музыка---*/
+
+/*-----популярная музыка---*/
+
+.fff3 {
+  background-image: url(img/фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 81.3vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff3 > h1,
+.fff3 > p {
+  margin-top: 4%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.fff3 > p {
+  font-size: 24px;
+}
+
+.fff3 li {
+  display: inline;
+}
+
+.fff3 > ul {
+  margin-top: 5%;
+}
+
+.block {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 0;
+  margin-top: 2%;
+  display: grid;
+  grid-template-columns: 0.5fr 1px 0.5fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "head . nav"
+    "main . foot";
+}
+
+.block > ul {
+  display: flex;
+  padding: 0;
+  margin: auto;
+}
+
+/*---.block img {
+  width: 17vw;
+  height: 60%;
+}---*/
+
+/*--.block img {
+  width: 8vw;
+  height: 6vh;
+}---*/
+
+.kn1 {
+  grid-area: head;
+}
+
+.kn2 {
+  grid-area: nav;
+}
+
+.kn3 {
+  grid-area: main;
+}
+
+.kn4 {
+  grid-area: foot;
+}
+
+.kn5 {
+  margin: auto;
+  margin-top: 2% !important;
+}
+
+/*-----популярная музыка---*/
+
+/*-----кантри---*/
+.fff4 {
+  background-image: url(img/фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 81.3vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff4 > h1,
+.fff4 > p {
+  margin-top: 4%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.fff4 > p {
+  font-size: 24px;
+}
+
+.fff4 ul {
+  list-style: none;
+}
+
+.cantry {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 1%;
+}
+
+.cant1,
+.cant2,
+.cant3 {
+  display: inline;
+}
+/*-----кантри---*/
+
+/*-----Латиноамериканская музыка----*/
+.fff44 {
+  background-image: url(img/прод.фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 70vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff444 {
+  background-image: url(img/фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 70vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff44 > h1,
+.fff44 > p {
+  margin-top: 4%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.fff44 > p {
+  font-size: 24px;
+}
+
+.fff44 ul {
+  list-style: none;
+}
+
+/*-----Латиноамериканская музыка----*/
+
+/*-----джаз блюз и тд-----*/
+.fff55,
+.fff551,
+.fff552,
+.fff553,
+.fff554 {
+  background-image: url(img/прод.фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 120vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+.fff550 {
+  background-image: url(img/прод.фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 50vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+.fff5501 {
+  background-image: url(img/прод.фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 50vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff555 {
+  background-image: url(img/фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 120vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff55 > h1,
+.fff551 > h1,
+.fff552 > h1,
+.fff553 > h1,
+.fff554 > h1,
+.fff55 > p,
+.fff551 > p,
+.fff552 > p,
+.fff553 > p,
+.fff554 > p {
+  margin-top: 4%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.fff55 > p,
+.fff551 > p,
+.fff552 > p,
+.fff553 > p,
+.fff554 > p {
+  font-size: 24px;
+}
+
+.fff55 ul {
+  list-style: none;
+}
+.fff551 ul {
+  list-style: none;
+}
+.fff552 ul {
+  list-style: none;
+}
+.fff553 ul {
+  list-style: none;
+}
+.fff554 ul {
+  list-style: none;
+}
+
+.bluz {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 1%;
+}
+.rtbluz {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 1%;
+}
+
+.bluz1,
+.bluz2 {
+  display: inline;
+}
+.rtbluz1,
+.rtbluz2 {
+  display: inline;
+}
+
+.soul {
+  margin-right: 2%;
+}
+.fank {
+  margin-right: 2%;
+}
+.djaz {
+  margin-right: 2%;
+}
+
+/*-----джаз блюз и тд-----*/
+
+/*-----Фолк-музыка-----*/
+
+.fff81 {
+  background-image: url(img/прод.фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 97.5vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff81 > h1,
+.fff81 > p {
+  margin-top: 4%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.fff811 {
+  background-image: url(img/фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 96.5vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.knopfol1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
+}
+
+.knopfol {
+  display: inline;
+}
+
+.fff81 ul {
+  list-style: none;
+}
+
+.fff81 h2 {
+  margin-top: 3%;
+}
+
+.fff81 > p {
+  font-size: 24px;
+}
+
+/*-----Фолк-музыка-----*/
+
+/*-----шансон романс и т.д.-----*/
+
+.fff99,
+.fff991,
+.fff992,
+.fff993 {
+  background-image: url(img/прод.фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 120vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+.fff990 {
+  background-image: url(img/прод.фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 50vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+.fff9901 {
+  background-image: url(img/прод.фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 50vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff999 {
+  background-image: url(img/фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 120vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff99 > h1,
+.fff991 > h1,
+.fff992 > h1,
+.fff993 > h1,
+.fff992 > p,
+.fff993 > p {
+  margin-top: 4%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.fff99 > p,
+.fff991 > p,
+.fff992 > p,
+.fff993 > p {
+  font-size: 24px;
+}
+
+.fff991 h1 {
+  margin-top: 20%;
+}
+
+.fff992 h1 {
+  margin-top: 40%;
+}
+
+.fff993 h1 {
+  margin-top: 60%;
+}
+
+.fff99 ul {
+  list-style: none;
+}
+.fff991 ul {
+  list-style: none;
+}
+.fff992 ul {
+  list-style: none;
+}
+.fff993 ul {
+  list-style: none;
+}
+
+.shanson {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
+  margin-right: 1%;
+}
+.romans {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 1%;
+}
+
+.shanson1 {
+  display: inline;
+}
+.romans1 {
+  display: inline;
+}
+
+.blat {
+  margin-right: 2%;
+}
+.avtorka {
+  margin-right: 2%;
+}
+
+.shanson01 {
+  max-width: 50%;
+  max-height: 50%;
+  margin: auto;
+}
+
+.shanson0001 {
+  margin-top: 5%;
+  margin-bottom: 0%;
+}
+
+.shanson001 {
+  margin-top: 3%;
+}
+
+.shansontxt {
+  margin-top: 4%;
+}
+
+.shansontxt1 {
+  margin-top: 2%;
+}
+
+.shansontxt {
+  max-width: 70%;
+  margin-left: 15%;
+}
+
+.shansontxt1 {
+  max-width: 70%;
+  margin-left: 15%;
+}
+
+.romans01 {
+  max-width: 50%;
+  max-height: 50%;
+  margin: auto;
+}
+
+.romans0001 {
+  margin-top: 5%;
+  margin-bottom: 0%;
+}
+
+.romans001 {
+  margin-top: 3%;
+}
+
+.romans0001 {
+  margin-top: 3%;
+}
+
+.romans00001 {
+  margin-top: 3%;
+}
+
+.romans000001 {
+  margin-top: 3%;
+}
+
+.romans0000001 {
+  margin-top: 3%;
+}
+
+.romanstxt {
+  margin-top: 4%;
+}
+
+.romanstxt1 {
+  margin-top: 2%;
+}
+
+.romanstxt {
+  max-width: 70%;
+  margin-left: 15%;
+}
+
+.romanstxt1 {
+  max-width: 70%;
+  margin-left: 15%;
+}
+
+.romans1 {
+  margin-top: 5%;
+}
+
+.avtorka {
+  margin-top: 5%;
+  margin-left: 4%;
+}
+
+/*-----шансон романс и т.д.-----*/
+
+/*-----Электронная музыка-----*/
+
+.fff10,
+.fff102,
+.fff103,
+.fff104,
+.fff105,
+.fff106,
+.fff107,
+.fff108 {
+  background-image: url(img/прод.фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 83vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff101 {
+  background-image: url(img/фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 81.3vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff10 > h1,
+.fff10 > p {
+  margin-top: 4%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.fff10 > p {
+  font-size: 24px;
+}
+
+.fff10 ul {
+  list-style: none;
+}
+
+.fff10 ul {
+  margin-top: 2%;
+}
+
+.elektro {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 1%;
+}
+
+.elektro1 {
+  margin-top: 2%;
+  margin-left: 1%;
+}
+
+.elektro1 {
+  display: inline;
+}
+
+.fff10 h2 {
+  margin-right: 1%;
+  margin-top: 3%;
+}
+
+/*-----Электронная музыка-----*/
+
+/*-----Фонк-----*/
+
+.fff11 {
+  background-image: url(img/прод.фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 81.3vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff111 {
+  background-image: url(img/фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 81.3vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff11 > h1,
+.fff11 > p {
+  margin-top: 4%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.fff11 > p {
+  font-size: 24px;
+}
+
+.fff11 ul {
+  list-style: none;
+}
+
+.fff11 ul {
+  margin-top: 2%;
+}
+
+.fonk {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 1%;
+}
+
+.fonk1 {
+  margin-top: 2%;
+  margin-left: 1%;
+}
+
+.fonk1,
+.fonk2 {
+  display: inline;
+}
+
+.fff11 h2 {
+  margin-right: 1%;
+  margin-top: 3%;
+}
+
+/*-----Фонк-----*/
+
+/*-----Хип-хоп-----*/
+.fff12 {
+  background-image: url(img/прод.фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 81.3vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff121 {
+  background-image: url(img/фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 81.3vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff12 > h1,
+.fff12 > p {
+  margin-top: 4%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.fff12 > p {
+  font-size: 24px;
+}
+
+.fff12 ul {
+  list-style: none;
+}
+
+.fff12 ul {
+  margin-top: 2%;
+}
+
+.xipxop {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 1%;
+}
+
+.xipxop1,
+.xipxop2 {
+  margin-top: 2%;
+  margin-left: 1%;
+}
+
+.xipxop1,
+.xipxop2 {
+  display: inline;
+}
+
+.fff12 h2 {
+  margin-right: 1%;
+  margin-top: 3%;
+}
+
+/*-----Хип-хоп-----*/
+
+/*-----Рок-----*/
+
+.fff13 {
+  background-image: url(img/прод.фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 100vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff131 {
+  background-image: url(img/фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 100vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff13 > h1,
+.fff13 > p {
+  margin-top: 4%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.fff13 > p {
+  font-size: 24px;
+}
+
+.fff13 ul {
+  list-style: none;
+}
+
+.fff13 ul {
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.rock {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 1%;
+}
+
+.rock1,
+.rock2,
+.rock3 {
+  display: inline;
+}
+
+.fff13 h2 {
+  margin-right: 1%;
+  margin-top: 3%;
+}
+
+/*-----Рок-----*/
+
+/*-----metal-----*/
+.fff14 {
+  background-image: url(img/прод.фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 97.5vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff1411 {
+  background-image: url(img/прод.фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 97.5vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff14111 {
+  background-image: url(img/прод.фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 97.5vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff141 {
+  background-image: url(img/фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 96.5vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff14 > h1,
+.fff14 > p {
+  margin-top: 4%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.metal {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 1%;
+}
+
+.metal1,
+.metal2 {
+  margin-top: 2%;
+  margin-left: 1%;
+}
+
+.metal1,
+.metal2 {
+  display: inline;
+}
+
+.fff14 h2 {
+  margin-right: 1%;
+  margin-top: 3%;
+}
+
+.fff14 ul {
+  list-style: none;
+}
+
+.fff14 ul {
+  margin-top: 2%;
+}
+
+.fff14 > p {
+  font-size: 24px;
+}
+
+/*-----metal-----*/
+
+/*-----регги-----*/
+
+.fff15 {
+  background-image: url(img/прод.фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 75vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff1511 {
+  background-image: url(img/прод.фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 75vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff151 {
+  background-image: url(img/фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 75vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff15 > h1,
+.fff15 > p {
+  margin-top: 4%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.fff15 > p {
+  margin-bottom: 10%;
+}
+
+.fff15 > p {
+  font-size: 24px;
+}
+
+.fff15 ul {
+  list-style: none;
+}
+
+.fff15 ul {
+  margin-top: 2%;
+}
+
+.reggi {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 1%;
+}
+
+.reggi1,
+.reggi2 {
+  margin-top: 5%;
+  margin-left: 1%;
+}
+
+.reggi1,
+.reggi2 {
+  display: inline;
+}
+
+.fff15 h2 {
+  margin-right: 1%;
+  margin-top: 3%;
+}
+
+/*-----регги-----*/
+
+/*-----Новая волна-----*/
+
+.fff16 {
+  background-image: url(img/прод.фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 97.5vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff16 > h1,
+.fff16 > p {
+  margin-top: 4%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.fff161 {
+  background-image: url(img/фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 96.5vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.novvol1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
+}
+
+.novvol {
+  display: inline;
+}
+
+.fff16 ul {
+  list-style: none;
+}
+
+.fff16 h2 {
+  margin-top: 3%;
+}
+
+.fff16 > p {
+  font-size: 24px;
+}
+
+/*-----Новая волна-----*/
+
+/*-----Диско-----*/
+
+.fff17 {
+  background-image: url(img/прод.фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 90.5vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff171 {
+  background-image: url(img/фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 90.5vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff17 > h1,
+.fff17 > p {
+  margin-top: 4%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.fff17 > p {
+  margin-bottom: 5%;
+}
+
+.disko1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
+}
+
+.disko {
+  display: inline;
+}
+
+.fff17 ul {
+  list-style: none;
+}
+
+.fff17 h2 {
+  margin-top: 3%;
+}
+
+.fff17 > p {
+  font-size: 24px;
+}
+
+/*-----Диско-----*/
+
+/*-----Поп-музыка-----*/
+
+.fff18 {
+  background-image: url(img/прод.фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 96.5vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff181 {
+  background-image: url(img/фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 96.5vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fff18 > h1,
+.fff18 > p {
+  margin-top: 4%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.fff18 > p {
+  margin-bottom: 3%;
+}
+
+.pop1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
+}
+
+.pop {
+  display: inline;
+}
+
+.fff18 ul {
+  list-style: none;
+}
+
+.fff18 h2 {
+  margin-top: 3%;
+}
+
+.fff18 > p {
+  font-size: 24px;
+}
+
+/*-----Поп-музыка-----*/
+
+/*-------------растение--------------*/
+
+.fffr {
+  background-image: url(img/фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 90vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fffr > h1,
+.fffr > p {
+  margin-top: 4%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.fffr > p {
+  font-size: 24px;
+}
+
+.fffr li {
+  display: inline;
+}
+
+.fffr ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10%;
+}
+
+/*-------------растения--------------*/
+
+.fffr1 {
+  background-image: url(img/фончик.png);
+  display: flex;
+  justify-content: start;
+  height: 81.3vh;
+  width: 70%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fffr1 > h1,
+.fffr1 > p {
+  margin-top: 4%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.fffr1 > p {
+  font-size: 24px;
+}
+
+.fffr1 ul {
+  list-style: none;
+}
+
+.cantry {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 1%;
+}
+
+.cant1,
+.cant2,
+.cant3 {
+  display: inline;
+}
+
+/*-------------растения--------------*/
+
+/*-------------адаптация--------------*/
+
+@media (min-width: 500px) {
+}
+
+@media (min-width: 490px) {
+}
+
+/*-------------адаптация--------------*/
