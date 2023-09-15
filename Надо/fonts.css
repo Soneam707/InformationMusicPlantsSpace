@@ -1,0 +1,26 @@
+/* Шрифты ------------------------------ */
+
+@font-face {
+  font-family: Inter;
+
+  src: url("../fonts/InterRegular/InterRegular.eot")
+      url("../fonts/InterRegular/InterRegular.ttf") format("truetype"),
+    url("../fonts/InterRegular/Inter Regular.woff") format("woff");
+
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/InterBold/InterBold.eot"),
+    url("../fonts/InterBold/InterBold.ttf") format("truetype"),
+    url("../fonts/InterBold/InterBold.woff") format("woff");
+
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Marck+Script&display=swap");
